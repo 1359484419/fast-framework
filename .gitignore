@@ -1,0 +1,10 @@
+/bix-app/
+/bix-common/
+/bix-config/
+/bix-controller/
+/bix-dao/
+/bix-service/
+/bix-utils/
+/logs/
+/bixapi.iml
+/pom.xml

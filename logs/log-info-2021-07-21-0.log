@@ -1,0 +1,436 @@
+2021-07-21 10:00:40 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Starting BixApp on DESKTOP-MCC3H64 with PID 14288 (D:\code\java\zmx\bix-app\target\classes started by PC in D:\code\java\zmx)
+2021-07-21 10:00:40 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | No active profile set, falling back to default profiles: default
+2021-07-21 10:00:40 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-21 10:00:40 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-21 10:00:41 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-21 10:00:41 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-21 10:00:41 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2021-07-21 10:00:41 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'asyncConfig' of type [com.bix.config.async.AsyncConfig$$EnhancerBySpringCGLIB$$351337a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a037f8d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9c669a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat initialized with port(s): 8099 (http)
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Initializing ProtocolHandler ["http-nio-8099"]
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.apache.catalina.core.StandardService[0;39m | Starting service [Tomcat]
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.apache.catalina.core.StandardEngine[0;39m | Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring embedded WebApplicationContext
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1693 ms
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicDataSourceCreator[0;39m | 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1,master} inited
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2,basic} inited
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 初始共加载 2 个数据源
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 basic 成功
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 master 成功
+2021-07-21 10:00:42 |[] | [34mINFO [0;39m | [1;33mrestartedMain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 当前的默认数据源是单数据源，数据源名为 master
+2021-07-21 10:04:20 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Starting BixApp on DESKTOP-MCC3H64 with PID 17476 (D:\code\java\zmx\bix-app\target\classes started by PC in D:\code\java\zmx)
+2021-07-21 10:04:20 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | No active profile set, falling back to default profiles: default
+2021-07-21 10:04:20 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-21 10:04:20 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-21 10:04:21 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-21 10:04:21 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-21 10:04:21 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2021-07-21 10:05:11 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Starting BixApp on DESKTOP-MCC3H64 with PID 1080 (D:\code\java\zmx\bix-app\target\classes started by PC in D:\code\java\zmx)
+2021-07-21 10:05:11 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | No active profile set, falling back to default profiles: default
+2021-07-21 10:05:11 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-21 10:05:11 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-21 10:05:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-21 10:05:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-21 10:05:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2021-07-21 10:05:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'asyncConfig' of type [com.bix.config.async.AsyncConfig$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:05:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:05:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:05:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:05:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:05:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 10:05:14 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat initialized with port(s): 8099 (http)
+2021-07-21 10:05:14 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Initializing ProtocolHandler ["http-nio-8099"]
+2021-07-21 10:05:14 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardService[0;39m | Starting service [Tomcat]
+2021-07-21 10:05:14 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardEngine[0;39m | Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-21 10:05:14 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring embedded WebApplicationContext
+2021-07-21 10:05:14 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 3142 ms
+2021-07-21 10:05:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicDataSourceCreator[0;39m | 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2021-07-21 10:05:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1,master} inited
+2021-07-21 10:05:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2,basic} inited
+2021-07-21 10:05:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 初始共加载 2 个数据源
+2021-07-21 10:05:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 basic 成功
+2021-07-21 10:05:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 master 成功
+2021-07-21 10:05:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 当前的默认数据源是单数据源，数据源名为 master
+2021-07-21 10:05:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService
+2021-07-21 10:05:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'getAsyncExecutor'
+2021-07-21 10:05:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-8099"]
+2021-07-21 10:05:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat started on port(s): 8099 (http) with context path '/zmx'
+2021-07-21 10:05:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Started BixApp in 7.441 seconds (JVM running for 11.534)
+2021-07-21 11:15:52 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Starting BixApp on DESKTOP-MCC3H64 with PID 12548 (D:\code\java\zmx\bix-app\target\classes started by PC in D:\code\java\zmx)
+2021-07-21 11:15:52 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | No active profile set, falling back to default profiles: default
+2021-07-21 11:15:52 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-21 11:15:52 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-21 11:15:53 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-21 11:15:53 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-21 11:15:53 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2021-07-21 11:15:54 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'asyncConfig' of type [com.bix.config.async.AsyncConfig$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:15:54 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:15:54 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:15:54 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:15:54 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:15:54 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat initialized with port(s): 8099 (http)
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Initializing ProtocolHandler ["http-nio-8099"]
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardService[0;39m | Starting service [Tomcat]
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardEngine[0;39m | Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring embedded WebApplicationContext
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 3020 ms
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicDataSourceCreator[0;39m | 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1,master} inited
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2,basic} inited
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 初始共加载 2 个数据源
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 basic 成功
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 master 成功
+2021-07-21 11:15:55 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 当前的默认数据源是单数据源，数据源名为 master
+2021-07-21 11:15:56 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService
+2021-07-21 11:15:56 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'getAsyncExecutor'
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-8099"]
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Pausing ProtocolHandler ["http-nio-8099"]
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardService[0;39m | Stopping service [Tomcat]
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.util.LifecycleBase[0;39m | The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Stopping ProtocolHandler ["http-nio-8099"]
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Destroying ProtocolHandler ["http-nio-8099"]
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Shutting down ExecutorService 'getAsyncExecutor'
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | closing dynamicDatasource  ing....
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2} closed
+2021-07-21 11:15:58 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1} closed
+2021-07-21 11:17:00 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Starting BixApp on DESKTOP-MCC3H64 with PID 22504 (D:\code\java\zmx\bix-app\target\classes started by PC in D:\code\java\zmx)
+2021-07-21 11:17:00 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | No active profile set, falling back to default profiles: default
+2021-07-21 11:17:00 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-21 11:17:00 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-21 11:17:01 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-21 11:17:01 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-21 11:17:01 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'asyncConfig' of type [com.bix.config.async.AsyncConfig$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat initialized with port(s): 8099 (http)
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Initializing ProtocolHandler ["http-nio-8099"]
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardService[0;39m | Starting service [Tomcat]
+2021-07-21 11:17:02 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardEngine[0;39m | Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring embedded WebApplicationContext
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 2916 ms
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicDataSourceCreator[0;39m | 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1,master} inited
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2,basic} inited
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 初始共加载 2 个数据源
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 basic 成功
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 master 成功
+2021-07-21 11:17:03 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 当前的默认数据源是单数据源，数据源名为 master
+2021-07-21 11:17:04 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService
+2021-07-21 11:17:04 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'getAsyncExecutor'
+2021-07-21 11:17:05 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-8099"]
+2021-07-21 11:17:05 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat started on port(s): 8099 (http) with context path '/zmx'
+2021-07-21 11:17:05 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Started BixApp in 6.854 seconds (JVM running for 10.806)
+2021-07-21 13:25:14 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-4[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-21 13:25:14 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-4[0;39m |
+                [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m | Initializing Servlet 'dispatcherServlet'
+2021-07-21 13:25:14 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-4[0;39m |
+                [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m | Completed initialization in 16 ms
+2021-07-21 13:36:07 |[] | [34mINFO [0;39m | [1;33mThread-66[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Shutting down ExecutorService 'getAsyncExecutor'
+2021-07-21 13:36:07 |[] | [34mINFO [0;39m | [1;33mThread-66[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | closing dynamicDatasource  ing....
+2021-07-21 13:36:07 |[] | [34mINFO [0;39m | [1;33mThread-66[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2} closed
+2021-07-21 13:36:07 |[] | [34mINFO [0;39m | [1;33mThread-66[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1} closed
+2021-07-21 13:36:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Starting BixApp on DESKTOP-MCC3H64 with PID 6896 (D:\code\java\zmx\bix-app\target\classes started by PC in D:\code\java\zmx)
+2021-07-21 13:36:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | No active profile set, falling back to default profiles: default
+2021-07-21 13:36:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-21 13:36:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-21 13:36:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-21 13:36:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-21 13:36:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2021-07-21 13:36:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'asyncConfig' of type [com.bix.config.async.AsyncConfig$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:36:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:36:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:36:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:36:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:36:17 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:36:18 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat initialized with port(s): 8099 (http)
+2021-07-21 13:36:18 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Initializing ProtocolHandler ["http-nio-8099"]
+2021-07-21 13:36:18 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardService[0;39m | Starting service [Tomcat]
+2021-07-21 13:36:18 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardEngine[0;39m | Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-21 13:36:18 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring embedded WebApplicationContext
+2021-07-21 13:36:18 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 2920 ms
+2021-07-21 13:36:18 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicDataSourceCreator[0;39m | 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2021-07-21 13:36:19 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1,master} inited
+2021-07-21 13:36:19 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2,basic} inited
+2021-07-21 13:36:19 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 初始共加载 2 个数据源
+2021-07-21 13:36:19 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 basic 成功
+2021-07-21 13:36:19 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 master 成功
+2021-07-21 13:36:19 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 当前的默认数据源是单数据源，数据源名为 master
+2021-07-21 13:36:28 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService
+2021-07-21 13:36:28 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'getAsyncExecutor'
+2021-07-21 13:36:29 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-8099"]
+2021-07-21 13:36:29 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat started on port(s): 8099 (http) with context path '/zmx'
+2021-07-21 13:36:30 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Started BixApp in 15.738 seconds (JVM running for 19.475)
+2021-07-21 13:36:31 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-1[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-21 13:36:31 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-1[0;39m |
+                [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m | Initializing Servlet 'dispatcherServlet'
+2021-07-21 13:36:31 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-1[0;39m |
+                [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m | Completed initialization in 9 ms
+2021-07-21 13:44:00 |[] | [34mINFO [0;39m | [1;33mThread-84[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Shutting down ExecutorService 'getAsyncExecutor'
+2021-07-21 13:44:00 |[] | [34mINFO [0;39m | [1;33mThread-84[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | closing dynamicDatasource  ing....
+2021-07-21 13:44:00 |[] | [34mINFO [0;39m | [1;33mThread-84[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2} closed
+2021-07-21 13:44:00 |[] | [34mINFO [0;39m | [1;33mThread-84[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1} closed
+2021-07-21 13:44:09 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Starting BixApp on DESKTOP-MCC3H64 with PID 27516 (D:\code\java\zmx\bix-app\target\classes started by PC in D:\code\java\zmx)
+2021-07-21 13:44:09 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | No active profile set, falling back to default profiles: default
+2021-07-21 13:44:09 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-21 13:44:09 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor[0;39m | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-21 13:44:11 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-21 13:44:11 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-21 13:44:11 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m | Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2021-07-21 13:44:11 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'asyncConfig' of type [com.bix.config.async.AsyncConfig$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m | Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat initialized with port(s): 8099 (http)
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Initializing ProtocolHandler ["http-nio-8099"]
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardService[0;39m | Starting service [Tomcat]
+2021-07-21 13:44:12 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.StandardEngine[0;39m | Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring embedded WebApplicationContext
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 3353 ms
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicDataSourceCreator[0;39m | 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-1,master} inited
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.alibaba.druid.pool.DruidDataSource[0;39m | {dataSource-2,basic} inited
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 初始共加载 2 个数据源
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 basic 成功
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 动态数据源-加载 master 成功
+2021-07-21 13:44:13 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.baomidou.dynamic.datasource.DynamicRoutingDataSource[0;39m | 当前的默认数据源是单数据源，数据源名为 master
+2021-07-21 13:44:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService
+2021-07-21 13:44:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'getAsyncExecutor'
+2021-07-21 13:44:15 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mspringfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping[0;39m | Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-07-21 13:44:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mspringfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper[0;39m | Context refreshed
+2021-07-21 13:44:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mspringfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper[0;39m | Found 1 custom documentation plugin(s)
+2021-07-21 13:44:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mspringfox.documentation.spring.web.scanners.ApiListingReferenceScanner[0;39m | Scanning for api listing references
+2021-07-21 13:44:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-8099"]
+2021-07-21 13:44:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat started on port(s): 8099 (http) with context path '/zmx'
+2021-07-21 13:44:16 |[] | [34mINFO [0;39m | [1;33mmain[0;39m |
+                [1;32mcom.bix.BixApp[0;39m | Started BixApp in 8.469 seconds (JVM running for 12.228)
+2021-07-21 13:44:20 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-1[0;39m |
+                [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/zmx][0;39m | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-21 13:44:20 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-1[0;39m |
+                [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m | Initializing Servlet 'dispatcherServlet'
+2021-07-21 13:44:20 |[] | [34mINFO [0;39m | [1;33mhttp-nio-8099-exec-1[0;39m |
+                [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m | Completed initialization in 12 ms

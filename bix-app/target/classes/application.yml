@@ -1,0 +1,84 @@
+spring:
+  autoconfigure:
+    exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure,org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+#  datasource:
+#    dynamic:
+#      primary: master #设置默认的数据源或者数据源组,默认值即为master,如果你主从默认下主库的名称就是master可不定义此项。
+#      datasource:
+#        #api数据库配置
+#        master:
+#          url: jdbc:mysql://47.98.167.119:3306/zmx?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#          # 数据库连接用户名称
+#          username: root
+#          # 数据库连接用户密码
+#          password: Admin123!
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#          type: com.alibaba.druid.pool.DruidDataSource
+#        #basic库配置
+#        basic:
+#          url: jdbc:mysql://47.98.167.119:3306/zmx?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#          # 数据库连接用户名称
+#          username: root
+#          # 数据库连接用户密码
+#          password: Admin123!
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#          type: com.alibaba.druid.pool.DruidDataSource
+  cache:
+    type: redis
+    cache-names: redisCache
+    # 设置10分钟超时
+    redis:
+      time-to-live: 600000
+  #      ehcache:
+#      config: classpath:ehcache.xml
+
+# redis配置
+  redis:
+    port: 6379
+    host: 47.98.167.119
+    password:
+    timeout: 1000
+    jedis:
+      pool:
+        min-idle: 50
+        max-active: 300
+        max-idle: 50
+        max-wait: 2000
+
+server:
+  port: 9999
+#  servlet:
+#    context-path: /zmx
+# mybatisplus配置
+#mybatis-plus:
+#  mapper-locations: classpath*:/mapper/*Mapper.xml
+#  typeAliasesPackage: com.bix.bixApi.entity
+#  global-config:
+#    id-type: 0
+#    field-strategy: 2
+#    db-column-underline: false
+#    # 刷新mapper 调试神器
+#    refresh-mapper: true
+#    logic-delete-value: 1
+#    logic-not-delete-value: 0
+#    sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
+#    meta-object-handler: com.bix.config.mybatisplus.CommonFieldMetaObjectHandler
+  configuration:
+    map-underscore-to-camel-case: false
+    cache-enabled: false
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
+    lazy-load-trigger-methods: ""
+
+bixApi:
+  auth-cookie-key: ZMXCOOKIE
+  # 是否是测试环境
+  isDev: true
+  # redis前綴
+  redis:
+    prefix: zmx
+
+
+
+
+

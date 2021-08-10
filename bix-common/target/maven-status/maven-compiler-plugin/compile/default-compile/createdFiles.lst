@@ -1,0 +1,3 @@
+com\bix\bixApi\ErrorCode.class
+com\bix\bixApi\IEnum.class
+com\bix\bixApi\common\exception\BixApiException.class
